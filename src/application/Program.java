@@ -37,7 +37,7 @@ public class Program {
 
 		System.out.println("\n --- Test 5 : Seller Update ---");
 		seller = sellerDao.findById(1);
-		seller.setName("Matha Wayne");
+		seller.setName("Martha Wayne");
 		sellerDao.update(seller);
 		System.out.println("Update Completed");
 
