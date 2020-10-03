@@ -42,7 +42,7 @@ public class Program {
 		sellerDao.update(seller);
 		System.out.println("Update Completed");
 		
-		int a = 0;
+
 		System.out.println("\n --- Test 6 : Seller delete ---");
 		System.out.println("Enter the id for delete test");
 		int id = sc.nextInt();
